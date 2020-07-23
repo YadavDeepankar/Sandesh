@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1083431249779",
+    "firebase_url": "https://sandesh-india.firebaseio.com",
+    "project_id": "sandesh-india",
+    "storage_bucket": "sandesh-india.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083431249779:android:fb755eaf9366c0ffe3c706",
+        "android_client_info": {
+          "package_name": "com.help.sandesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083431249779-5fjijrk1tsmf0695bf7ii1l6if6po8rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.help.sandesh",
+            "certificate_hash": "6eb4293006f118eebc5bffeac7b0dd0024988f67"
+          }
+        },
+        {
+          "client_id": "1083431249779-4g81fprofpij6g5k5sss2hli4nkiab4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDztM6UL-7n-NChWL1i8MqLxtEVG0td6g8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083431249779-4g81fprofpij6g5k5sss2hli4nkiab4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

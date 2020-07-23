@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".User.UserDashBoard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_map"
+            android:drawablePadding="30dp"
+            android:gravity="center"
+            android:onClick="u_locate"
+            android:text="LOCATE SERVICE"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_helpline"
+            android:drawablePadding="30dp"
+            android:gravity="center"
+            android:onClick="u_sos"
+            android:text="HELPLINE"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/ic_india"
+        android:drawablePadding="30dp"
+        android:gravity="center"
+        android:onClick="u_India_Live"
+        android:text="CORONA LIVE !\nINDIA"
+        android:textColor="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_world"
+            android:drawablePadding="30dp"
+            android:gravity="center"
+            android:onClick="u_World_Live"
+            android:text="CORONA LIVE !\nWORLD"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_qrcode"
+            android:drawablePadding="30dp"
+            android:gravity="center"
+            android:onClick="scanqqr"
+            android:text="SCAN PASS"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_hospital"
+            android:drawablePadding="30dp"
+            android:gravity="center"
+            android:onClick="locCovid"
+            android:text="LOCATE COVID\nHOSPITALS"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_marginRight="70dp"-->
+<!--        android:layout_marginLeft="70dp">-->
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableLeft="@drawable/ic_qrcode"-->
+<!--            android:onClick="scanqqr"-->
+<!--            android:text="SCAN QR"-->
+<!--            android:textSize="20dp" />-->
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="COVID-LABS"-->
+<!--            android:onClick="locCovid"-->
+<!--            android:textSize="20dp"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>
